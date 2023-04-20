@@ -1,0 +1,123 @@
+.container-both {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid greenyellow;
+  height: 50vh;
+  margin-top: 0%;
+  width: 100%;
+}
+
+
+
+.boxRight {
+  /* border: 2px solid red; */
+  /* display: flex; */
+  height: 0%;
+  width: 50%;
+  /* border: 2px solid Blue; */
+  display: flex;
+  flex-direction: column;
+
+  max-width: 100%;
+}
+
+.row2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* flex-direction: row-reverse; */
+  /* border: 4px solid greenyellow */
+}
+.colheading{
+
+}
+
+.footer-col {
+  /* border: 2px solid red; */
+  height: 100%;
+  width: 33%;
+  margin-bottom: 50%;
+  /* max-width: 70%; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: ; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
+  color: darkgray;
+  margin: 17px;
+
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: black;
+  padding-left: 8px;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 580px) {
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1080px) {
+    
+  
+    .boxLeft{
+    display: none;
+    }
+    .boxRight{
+        margin-left: 30%;
+    }
+
+
+  }
+  @media only screen and (min-width: 300px) and (max-width: 500px) {
+    .boxLeft{
+        display: none;
+        }
+.footer-col{
+    display: flex;
+    flex-direction: column;
+}
+.row2{display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    justify-content: flex-start;
+    align-items: normal;
+}
+
+  
+
+        .boxRight{
+            margin-left: 30%;
+        }
+}
+.colheading {
+  margin-left: 18%;
+  font-size: 1.5rem;
+}
+
+.degih1 {
+  margin: 40% 40% 0% 40%;
+}
+
+.degih4 {
+  margin: 10% 0% 0% 40%;
+  /* border: 2px solid rebeccapurple; */
+  width: 100%;
+  color: darkgray;
+}

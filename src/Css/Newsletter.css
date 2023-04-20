@@ -1,0 +1,196 @@
+.both-sides {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+/* Left side */
+
+.left {
+  width: 50%;
+  background-color: #dbff73;
+  height: 100vh;
+}
+
+.leftheading {
+  font-size: 4rem;
+  margin: 10% 0% 10% 12%;
+}
+
+.row2 {
+  margin-top: 36.5%;
+  /* border: 2px solid red; */
+  height: 20%;
+}
+.text {
+  margin-left: 12%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row3 {
+  /* border: 2px solid firebrick; */
+  margin-left: 12%;
+  display: flex;
+  height: 20%;
+}
+.b1 {
+  width: 20%;
+  height: 30%;
+  border-radius: 5px;
+
+  border: none;
+  cursor: pointer;
+}
+
+.b1:hover {
+  background-color: black;
+  color: white;
+  transition: 600ms;
+}
+
+.b2 {
+  margin-left: 5%;
+  width: 20%;
+  height: 30%;
+  border-radius: 5px;
+
+  border: none;
+  cursor: pointer;
+}
+.b2:hover {
+  background-color: black;
+  color: white;
+  transition: 600ms;
+}
+
+/* Right Side */
+
+.right {
+  width: 50%;
+  height: 100vh;
+  background-color: #1e2c35;
+}
+.rowright1 {
+  margin: 10% 0% 0% 12%;
+}
+
+.rightheading {
+  color: white;
+  font-size: 4rem;
+}
+
+.label {
+  color: white;
+}
+
+.rowright2 {
+  margin-top: 36.5%;
+  margin-left: 12%;
+  margin-bottom: 6%;
+}
+.row2text {
+  color: white;
+  font-size: large;
+}
+
+.rowright3{
+    height: 7%;
+/* border: 2px solid red; */
+margin-bottom: 4%;
+}
+
+.form{
+    margin-left: 12%;
+    height: 100%;
+}
+input:focus, input:focus{
+    outline: none;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    transition: 500ms;
+
+    
+
+}
+
+
+.input{
+    background-color: #1e2c35;
+    /* margin-left: 1.5rem; */
+    margin-right: 1rem;
+
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    width: 30%;
+    height: 80%;
+}
+input::-webkit-input-placeholder {
+    color: #999;
+}
+input:focus::-webkit-input-placeholder {
+    transition: 300ms;
+    color: transparent
+    ;
+    
+}
+
+.rowright4{
+height: 20%;
+/* border: 2px solid gold; */
+
+}
+
+.subscribe-btn {
+    margin-left: 12%;
+    width: 20%;
+    cursor: pointer;
+    height: 30%;
+    border-radius: 5px;
+  }
+  .subscribe-btn:hover {
+    background-color: black;
+    color: white;
+    transition: 600ms;
+  }
+
+  .submit-btn{
+    width: 25%;
+    margin-top: 5px;
+    height: 60%;
+  }
+
+  @media only screen and (min-width: 250px) and (max-width: 952px) {
+    .rightheading{
+      font-size: 40px;
+    }
+    .leftheading{
+        font-size: 40px;
+  
+    }
+    .text{
+        font-size: 0.6rem;
+      }
+    .right{
+        height: 60vh;
+    }
+    .left{
+        height: 60vh;
+    }
+      }
+
+
+
+          @media only screen and (min-width: 300px) and (max-width: 500px) {
+            .text{
+              font-size: 0.5rem;
+            }
+           
+            .rightheading{
+                font-size: 25px;
+              }
+              .leftheading{
+                  font-size: 25px;
+            
+              }}

@@ -1,0 +1,143 @@
+.outerContainer {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  /* width: 100vw; */
+  width: 100%m;
+  height: 70vh;
+  /* flex-wrap: wrap; */
+  /* overflow: hidden; prevent scrolling */
+overflow-x: auto;
+}
+.outerContainer::-webkit-scrollbar {
+    display: none;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body {
+    background-color: white;
+  }
+
+.container{
+     height: 70%;
+  width: 25rem;
+  display: flex;
+  /* border: 2px solid yellow; */
+  flex-direction: column;
+  /* align-items: center; */
+
+  margin-left: 5%;
+  /* justify-content: center;  */
+}
+
+.grid {
+
+  /* border: 2px solid green; */
+height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  width: 100%;
+  grid-template-rows: 50% 50%;
+  
+
+  
+   /* or any other desired height */
+}
+
+.image1 {
+    /* span two columns and two rows */
+    grid-row: 1 / span 2;
+    border-radius: 9px;
+    /* grid-column: 1 / span 2; */
+    height: 95%;
+    width: 102%;
+    justify-self: center;
+  align-self: center;
+    /* object-fit: contain; */
+    /* margin: 10px; */
+    /* border: 2px solid sandybro/wn; */
+  }
+  
+  .image2 {
+    grid-row: 1;
+    grid-column: 2;
+    height: 90%;
+    width: 90%;
+    border-radius: 9px;
+   margin-bottom: 0px;
+    justify-self: center;
+    align-self: center;
+    /* object-fit: contain; */
+    /* border: 2px solid sandybrown; */
+  }
+  
+  .image3 {
+    grid-row: 2;
+    grid-column: 2;
+    height: 90%;
+    width: 90%;
+    border-radius: 9px;
+
+    justify-self: center;
+    align-self: center;
+    /* object-fit: contain; */
+    /* border: 2px solid sandybrown; */
+  }
+
+.texts-container{
+    display: flex;
+    height: 5%;
+    margin-top: .3rem;
+ /* border: 2px solid firebrick; */
+    margin-bottom: 0rem;
+    border-radius: 6px;
+    /* justify-content: space-between; */
+    align-items: center 
+
+}
+
+.text {
+    font-size: 1rem;
+  font-weight: bold;
+  margin-left: 10px;
+
+
+  /* border: 2px solid chartreuse; */
+}
+
+.text2 {
+    font-size: 0.96rem;
+    font-weight: bold;
+margin-left: 10.5rem;
+    /* border: 2px solid chartreuse; */
+  }
+
+  .heading{
+    font-size: 3rem;
+    margin-left: 5%;
+    margin-bottom: 70px;
+    margin-top: 5%;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .face{
+    height: 1.9rem;
+    width: 2.1rem;
+    margin-left: 0px;
+  /* border: 2px solid forestgreen; */
+  }
+ 
+  .facetext{
+    font-size: 1rem;
+  /* /* font-weight: bold; */
+  margin-left: 0px;
+  font-weight: bold;
+  
+
+  }
+  .texteths{
+    font-size: .7rem;
+    font-weight: bold;
+margin-left: 14.5rem;
+  }

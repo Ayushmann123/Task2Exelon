@@ -1,0 +1,150 @@
+.header {
+  display: flex;
+  
+  justify-content: space-between;
+  /* border: 2px solid darkorange; */
+  background-color: #1e2c35;
+
+}
+
+
+
+.h1heading{
+    color: white;
+    margin-left: 20%;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 10%;
+
+
+}
+.h3heading{
+color: white;
+margin-top: 0px;
+font-size: 1.5rem;
+font-family: cursive;
+margin-left: 20%;
+}
+
+
+.three-row-buttons{
+    margin-left: 20%;
+    display: flex;
+    margin-top: 5%;
+}
+.btn {
+  border-radius: 5px;
+  background-color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  width: 7rem;
+  height: 2rem;
+
+  margin: 0px 5px;
+  cursor: pointer;
+  margin-bottom: 13px;
+
+}
+
+.btn:hover {
+  background-color: white;
+  transition: 500ms;
+}
+
+.groundwork{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin-right: ; */
+    align-items: center;
+    /* border: 2px solid darkorange; */
+
+}
+.rightpic{
+    width: 30rem;
+ margin-top: 50px;
+ margin-left: 0px;
+ margin-bottom: 0px;
+ margin-right: 50px;
+    height: 4.5rem;
+}
+.righttext{
+    color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;     
+}
+
+.cardWrapper {
+  /* border: 2px solid green; */
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1e2c35;
+
+  padding-bottom: 10%;
+  justify-content: center;
+  
+}
+.card {
+  /* border: 2px solid red; */
+  border-radius: 6px;
+  width: 15%;
+  margin: 40px;
+  background-color: white;
+  /* height: 60%; */
+}
+.img {
+  width: 100%;
+  height: 75%;
+  border-radius: 1px;
+  /* margin-bottom: 10px; */
+  /* border: 2px solid chartreuse; */
+}
+
+.title {
+  font-size: 1rem;
+  margin: 0 0 0 5%;
+}
+
+.para {
+  font-size: 0.8rem;
+  margin: 0 0 0 5%;
+
+}
+
+@media only screen and (min-width: 450px) and (max-width: 952px) {
+  .rightpic{
+    display: none;
+  }
+  .righttext{
+    display: none;
+
+  }
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 450px) {
+        .rightpic{
+          display: none;
+        }
+        .righttext{
+          display: none;
+      
+        }
+
+        .three-row-buttons{
+            width: 60%;
+        }
+        .btn {
+            border-radius: 5px;
+            background-color: gray;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+            font-weight: bold;
+            width: 2rem;
+            height: 2rem;
+          border: 2px solid red;
+            margin: 0px 5px;
+            cursor: pointer;
+            margin-bottom: 13px;
+          
+          }
+
+          }
